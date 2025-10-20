@@ -1,4 +1,4 @@
-# VideoExpress.AI Studio - #1 Ranked AI Video Creation Platform Worldwide
+# VideoExpressai.app Studio - #1 Ranked AI Video Creation Platform Worldwide
 
 ![VideoExpress.AI Studio Logo](assets/images/logo.png)
 
@@ -28,4 +28,4 @@ For more information, visit our [Contact Page](https://videoexpressai.app/contac
 
 ---
 
-© 2023 VideoExpress.AI Studio - The #1 Ranked AI Video Creation Platform Worldwide
+© 2025 VideoExpress.AI Studio - The #1 Ranked AI Video Creation Platform Worldwide
