@@ -1,0 +1,13 @@
+title: "VideoExpress.AI Studio | #1 Ranked AI Video Creation Platform Worldwide"
+description: "Create professional AI videos in minutes with VideoExpress.AI Studio - ranked #1 worldwide."
+url: "https://videoexpressai.app"
+baseurl: ""
+permalink: pretty
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/og-image.jpg

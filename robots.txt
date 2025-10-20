@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /cdn-cgi/
+Allow: /edb9ab6a3b6609163fdc698e8a61bece.txt
+
+Sitemap: https://videoexpressai.app/sitemap.xml
