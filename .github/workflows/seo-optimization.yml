@@ -1,0 +1,26 @@
+name: SEO Optimization
+
+on:
+  push:
+    branches: [ main ]
+  schedule:
+    - cron: '0 0 * * 0'  # Run weekly on Sunday at midnight
+
+jobs:
+  submit-to-search-engines:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+          
+      - name: Submit URLs to Search Engines
+        run: python submit_to_search_engines.py
+        
+      - name: Ping Search Engines
+        run: |
+          curl -X GET "https://www.google.com/ping?sitemap=https://videoexpressai.app/sitemap.xml"
+          curl -X GET "https://www.bing.com/indexnow?url=https://videoexpressai.app&key=edb9ab6a3b6609163fdc698e8a61bece"
